@@ -1,0 +1,813 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html, body {
+    width: 100%;
+    overflow-x:hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2.5em;
+}
+
+body {
+	line-height: 1;
+    background: rgb(255, 255, 255);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* GRID */
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.container {
+	margin: 0;
+	width: 100%
+}
+.container {
+	padding: 15% 11em; 
+    
+}
+
+.col-1-3,
+.col-2-3 {
+	padding-left: 0.9375em;
+	padding-right: 0.9375em;
+}
+.col-1-3,
+.col-2-3 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-1-2 {
+    width: 50.00%;
+}
+
+.col-1-3 {
+	width: 33.33%;
+}
+
+.col-1-4 {
+    width: 25%; 
+}
+.col-2-5 {
+    width: 40%;
+}
+.col-1-5 {
+    width: 20%;
+}
+.col-2-3 {
+	width: 66.66%;
+}
+.col-1-8 {
+    width: 80%;
+}
+.col-full {
+    width: 100%;
+}
+
+/* STYLES */
+.style1 {
+    background: rgb(255, 255, 255);
+}
+.style2 {
+    background: rgb(252, 252, 252);
+}
+.style3 {
+    background: rgb(28,27,27);
+}
+
+/* TYPOGRAPHY --------------------*/
+
+
+h1 h2, h4, h5, p, image, li, span, button {
+    color: rgb(28,27,27);
+}
+
+h1, h2, h4 {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 300;
+    letter-spacing: 0.0625rem;
+    padding-bottom: 1.125rem;
+}
+
+h3 {
+    color: rgb(147, 149, 158);
+    letter-spacing: 0.078125rem;
+    padding-bottom: 1.125rem;
+}
+h3, h4, h5 {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 200;
+}
+
+p, span, a, img, li, button, .buttonReg {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+    /* SIZING */
+h1 {
+	font-size: 2.875rem;
+	line-height: 2.875rem;
+}
+h2 {
+	font-size: 2.875rem;
+	line-height: 2.875rem;
+}
+h3 {
+	font-size: 2.25rem;
+}
+h4 {
+	font-size: 1.125em;
+}
+h5 {
+	font-size: 0.875em;
+}
+strong {
+	font-weight: 600;
+}
+cite, em {
+	font-style: italic;
+}
+span {
+    
+
+}
+    .subtext {
+        color: rgb(147, 149, 158);
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.service { 
+    font-style: oblique;
+
+}
+
+
+/* HEADER */
+    header{
+        width: 100%;
+        display: block;
+        height: 6.25em;
+        margin: 0 auto;
+    }
+
+    /* NAV */
+        nav {
+            display: block;
+            width: 82%;
+            margin: 2.1875em auto;
+            
+        }
+        nav li {
+            width: auto;
+            display: inline-block;
+            margin: 0 1.25em 0 0;
+        }
+        nav li:last-child {
+            margin-right: 0;
+        }
+
+        nav li:last-child {
+            float: right;
+        }
+
+/* FOOTER */
+footer {
+    background-color: rgb(238, 238, 238);
+}
+
+.footerHeader {
+     
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.footerInfo {
+     
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* MAIN ------------------------------*/
+
+    /* Box Styling */
+.main {
+     /* border: 1px solid red; */
+    display: inline-block;
+    padding-top: 5%;
+}
+.welcomeContentFloat {
+    /* border: 1px solid red; */
+    float: left;
+}
+
+    /*Content Positioning*/
+
+
+.welcomeContent {
+  padding-right: 0em;
+
+}
+
+.welcomeContent h1 {
+    font-size: 56px;
+}
+
+.welcomeContent h2 {
+    font-size: 52px;
+}
+
+.mainImage {}
+
+.mainImage img {
+    display: block;
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+    /* max-width: 100%; */
+    opacity: 75%;
+}
+
+/* WHAT WE DO ------------------------- */
+
+    /* Box Styling */
+.whatWeDoHeader {
+    display: block;
+    margin: 0 auto;
+}
+
+.whatWeDoFloat {
+    /* border: 1px solid red; */
+    float: left;
+}
+
+.whatWeDoHeader {
+        padding-bottom: 10em;
+        text-align: center;
+}
+
+.whatWeDoContent {
+    /* border: 1px solid red; */
+    padding: 1.5625em 0em 1.5625em 1.5625em;
+}
+.whatWeDoContent h2 {
+    padding-top: 1.5em;
+    font-size: 2.25em;
+}
+.whatWeDoPara * {
+    padding-bottom: 1.75em;
+}
+.whatWeDoimage img{
+    /* border: 1px solid red; */
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-right: 20%;
+    padding-top: 8%;
+}
+
+/* PROJECTS ----------------------- */
+.projects {
+     background-color: rgb(252, 252, 252)
+}
+.projectsColFull {
+    margin: 0 auto;
+    width: 100%;
+}
+.projectsFloat {
+    float: left;   
+
+}
+
+.projectsSideText p {
+    padding-top: 1em;
+}
+
+.projectsFloat img, 
+.projectsFloat button,
+.projectPara p {
+    width: 80%;
+    min-width: 40%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.projectsFloat {
+    padding: 0.75em 0;
+}
+.projectsFloat img {
+    border-radius: 0.3125em;
+    box-shadow: 0em 0em 0.125em 0.0625em grey;
+}
+
+
+
+
+.projectsColFull {
+    /* border: 1px solid red; */
+}
+
+
+/* SERVICES ---------------- */
+.servicesHeader {
+    margin-bottom: 4.6875em;
+}
+.servicesHeader p {
+    color:rgb(252, 252, 252);
+}
+.services {
+    color: white;
+    background-color: rgb(28,27,27); 
+}
+
+.servicesRow {
+    margin: 0 auto;
+    padding: 3.125em 0em;
+}
+.servicesRow * {
+    float: left;
+    color: rgb(252, 252, 252);
+}
+.number {
+    display: inline-block;
+    text-align: center;
+}
+.textBox {
+    padding-top: 0.625rem;
+}
+
+
+
+/* WHO WE ARE ----------------------*/
+.whoWeAreHeader {
+    padding-bottom: 3.0em;
+}
+.teamSection{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(252, 252, 252);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px rgb(238, 238, 238);
+    /* border: 1px solid red; */
+}
+.teamSectionFloat {
+    float: left;
+    padding: 2em;
+    /* border: 1px solid red; */
+}
+.teamSectionFloat img {
+    display: block;
+    margin: 20% auto;
+    object-fit: fill;
+    width: 70%;
+    max-height: 50%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px rgb(238, 238, 238);
+}
+.teamSectionFloat p,
+.teamSectionFloat h3 {
+    padding-bottom: 1em;
+}
+
+.teamSectionPara {
+    font-style: italic;
+}
+
+/* CONTACT */
+.contact {
+    padding-top: 4%;
+}
+
+.contactFloat {
+    float: left;
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+form * {
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+.contactFloat img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    border-radius: 0.75%;
+}
+
+/* LANDING */
+
+.landing {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.landingContent * {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.landing button {
+    margin: 4% 2%;
+    font-size: 1.4em;
+    padding: 2%;
+}
+
+.bigMargin {
+    margin-bottom: 20em;
+}
+
+
+/* PORTFOLIO */
+.portfolioBio {
+    background:RGBa(28,27,27, 0.01);
+}
+.portfolioBio p,
+.portfolioBio h3 {
+    padding-bottom: 1em;
+}
+
+.portfolioSkills {
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolioSkills div{
+    text-align: center;
+}
+
+.portfolioSkills .col-1-4{
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    margin: 2em 2em;    
+    padding: 4% 3%;
+    text-align: center;
+}
+
+.portfolioSkills span {
+    font-size: 2.0em;
+    padding-left: 0.5em;
+    color: white;
+}
+
+.portfolioSkills i {
+    font-size: 4em;
+}
+
+.portfolioSkills .col-1-4:hover {
+    background: rgba(147, 149, 158, .15)
+}
+
+
+.portfolioSkills .col-1-4  {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    height: 40%;
+    max-height: 20%;
+}
+
+.portfolioSkills h2 {
+    color: white;
+}
+
+.portfolioProject p,
+.portfolioProject img,
+.portfolioProject button,
+.portfolioProject span {
+    display: block;
+    margin: 1.0em auto;
+    text-align: center;
+    width: 80%;
+}
+
+.portfolioProject img {
+    object-fit: cover;
+    width: 80%;
+    min-width: 40%;
+    height: 18em;
+    display: block;
+}
+
+.portfolioClosing p,
+.portfolioClosing h3{
+    margin-bottom: 1em;
+}
+.portfolioClosing p {
+    padding-bottom: 2.0em;
+}
+
+.portfolioUL {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolioUL li {
+    display: inline-block;
+    margin: 0 4%;
+    padding: 1em 0.5em;
+    text-align: center;
+}
+
+.portfolioUL li i {
+    display: block;
+    font-size: 2.5em;
+}
+
+.portfolioUL li i:hover {
+    color: RGBa(28,27,27, 0.75)
+}
+
+/* TEXT STYLES */
+
+.box {
+    display: block;
+    border: 0.1px solid grey;
+    border-radius: 2px;
+    padding: 1.875rem 2.8125rem;
+}
+
+.lineBox {
+    display: block;
+    text-align: center;
+    padding-right: 1.875rem;
+}
+
+.line {
+    display: block;
+    margin: auto 0;
+    border-bottom: 0.1px solid white;
+    padding-top: 2.625rem;
+    width: 100%;
+}
+.buttonReg {
+    background-color: RGBa(28,27,27, 1.0);
+    color: rgb(255, 255, 255);
+    font-size: 0.75em;
+    width: 35%;
+    padding: 0.875em 1.25em;
+    border-radius: 5px;
+    border: 0.5px solid rgb(28,27,27);
+}
+
+.buttonReg:hover {
+    transition: ease-in-out;
+    transition-duration: 0.25s;
+    background-color: rgb(252, 252, 252);
+    color: rgb(28,27,27);
+    cursor: pointer;
+
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 70%;
+    height: 50px;
+    font-size: 1rem;
+}
+
+/* TRANSITIONS */
+.js-scroll {
+    transition: background-color 500ms;
+  }
+ 
+/* MEDIA QUERIES */
+
+/* NARROW */
+@media (max-width: 1500px){
+    .container {
+        padding-right: 12%;
+        padding-left: 12%;
+    }
+    .col-1-2 {
+        width: 100%;
+    }
+        .welcomeContentFloat {
+            width: 50%;
+        }
+
+    .whatWeDoContent {
+        padding-left: 0;
+    }
+    .projectsText {
+        width: 100%;
+    }
+    .col-1-8 {
+        width: 100%;
+    }
+    .whatWeDoContent {
+        clear: both;
+    }
+    .whatWeDoHeader {
+        padding-bottom: 6.0em;
+    }
+    .whatWeDoimage img {
+        padding: 0;
+        max-width: 60%;
+    }
+    .projectsSideText{
+        width: 100%;
+        display: block;
+    }
+    .projectPara {
+        width: 50%;
+    }
+
+    .portfolioSkills .col-1-4  {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        height: 80%;
+    }
+    .portfolioSkills .col-1-4 *  {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* NARROWER */
+@media (max-width: 1200px) {
+    .container {
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    .projectPara {
+        width: 70%;
+    }
+    .landingButton {
+        width: 50%;
+        margin-top: 1px;
+    }
+}
+
+/* EVEN NARROWER */
+@media (max-width: 1000px){
+    .container {
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .projectPara {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .container {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .col-full {
+        text-align: center;
+    }
+    .teamSectionFloat {
+        width: 100%;
+    }
+    .teamSectionFloat img {
+        display: none;
+    }
+    nav {
+        display: block;
+        width: 82%;
+        margin: 2.1875em auto;
+        text-align: center;
+        
+    }
+    nav li {
+        width: auto;
+        display: inline-block;
+        margin: 0 1.2em 0 0;
+    }
+    nav li:last-child {
+        float: none;
+    }
+    .line {
+        display: block;
+        margin: auto 2em;
+        border-bottom: 0.1px solid white;
+        padding-top: 2.625rem;
+        width: 80%;
+    }
+
+    .portfolioSkills .col-1-4 span  {
+        display: none;
+    }
+
+}
+
+/* MOST NARROW */
+@media (max-width: 500px) {
+    h1, h2, h3, h4, h5, span, p, button, form, a, img, li, nav {
+        transform: scale(0.90);
+    }
+    .container {
+        padding-right: 4%;
+        padding-left: 4%;
+    }
+    .main {
+        text-align: center;
+    }
+    .whatWeDoContent {
+        padding-left: 0;
+    }
+
+    .col-1-2 {
+        width: 100%;
+    }
+    nav {
+        display: block;
+        width: 82%;
+        margin: 2.1875em auto;
+        text-align: center;
+        
+    }
+    nav li {
+        width: auto;
+        display: inline-block;
+        margin: 0 0.4em 0 0;
+    }
+    nav li:last-child {
+        float: none;
+    }
+
+    .skillTitle {
+        font-size:  1em;
+    }
+}
