@@ -33,6 +33,10 @@ html, body {
     overflow-x:hidden;
 }
 
+body * {
+    color: pink;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 2.5em;
