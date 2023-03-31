@@ -364,6 +364,8 @@ footer {
     padding: 0.75em 0;
 }
 .projectsFloat img {
+    height: 35rem;
+    object-fit: cover;
     border-radius: 0.3125em;
     box-shadow: 0em 0em 0.125em 0.0625em grey;
 }
@@ -554,7 +556,7 @@ form * {
     object-fit: cover;
     width: 80%;
     min-width: 40%;
-    height: 18em;
+    height: 30em;
     display: block;
 }
 
@@ -711,6 +713,9 @@ input {
         width: 50%;
         margin-top: 1px;
     }
+    .projectsFloat {
+        width: 100%;
+    }
 }
 
 /* EVEN NARROWER */
@@ -761,7 +766,6 @@ input {
         padding-top: 2.625rem;
         width: 80%;
     }
-
     .portfolioSkills .col-1-4 span  {
         display: none;
     }
