@@ -1,4 +1,4 @@
-# Web Development Site and Portfolio | [Link to Project](ericr.netlify.app)
+# Web Development Site and Portfolio | [Link to Project](https://github.com/errobicheau/portfolioSite)
 This page serves as a hub for Web Development services and for a developer portfolio featuring recent websites and projects along with bios and contact information. 
 
 ## How It's Made:
