@@ -9,8 +9,9 @@ This project was built using HTML5, CSS3, and JavaScript. Built from the ground 
 
 ## Optimizations and Changelog
 
-#### Optimization Roadmap
+#### TODO / Project Roadmap
 * portfolio.html - button for GitHub repositories for each project
+* portfolio.html - Twitter connection icon added and linked
 
 
 #### Changelog
