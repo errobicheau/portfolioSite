@@ -1,16 +1,28 @@
-# Portfolio Site
+# Web Development Site and Portfolio | [Link to Project](https://github.com/errobicheau/portfolioSite)
+This page serves as a hub for Web Development services and for a developer portfolio featuring recent websites and projects along with bios and contact information. 
 
-## Summary
-A centralized webpage that serves as a hub for this user's web design services and professional developer portfolio.
+## How It's Made:
 
-### Features
+**Tech used:** ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+This project was built using HTML5, CSS3, and JavaScript. Built from the ground up with HTML5 and CSS, this website features multiple pages, transition and animation elements, responsive viewing and elastic content. 
 
-#### Project Roadmap
+## Optimizations and Changelog
+
+#### TODO / Project Roadmap
 * portfolio.html - button for GitHub repositories for each project
+* portfolio.html - Twitter connection icon added and linked
+
 
 #### Changelog
 * [Mar 27, 2023](#)
     * portfolio.html - Project buttons now redirect to project webpage
     * home.html - Centered project span as it was not formatted correctly. Added subtext bold span to each project on home page. Modified text spacing in projects section. 
 
+
+## Lessons Learned:
+
+This project refined a number of skills in HTML5 development, CSS3 application for responsive and animated web browsers, and challenged my skills in content decisions throughout the page both on a large and small scale.
+
+## Examples:
+Take a look at some of the example projects listed on this website below:
