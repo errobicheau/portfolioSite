@@ -185,10 +185,7 @@ strong {
 cite, em {
 	font-style: italic;
 }
-span {
-    
 
-}
     .subtext {
         color: rgb(147, 149, 158);
     }
@@ -281,8 +278,6 @@ footer {
 .welcomeContent h2 {
     font-size: 52px;
 }
-
-.mainImage {}
 
 .mainImage img {
     display: block;

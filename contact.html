@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/pageIcon.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Serif:wght@200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="assets/enhance.css">
-    <title>Contact Us</title>
+    <title>Contact | Eric Robicheau</title>
 </head>
 <body>
     <header>
@@ -24,10 +25,11 @@
             <h1>Contact Us</h1>
             <h3>Let's get started.</h3>
             <p>Fill out the form or, if you prefer, send us an email at Eric.Robicheau@outlook.com</p>
-            <form action="mailto:eric.robicheau@outlook.com">
-                <input type="text" placeholder="Form temporarily disabled, please email directly.">
-                <input type="email" placeholder="Form temporarily disabled, please email directly.">
-                <input type="text" placeholder="Form temporarily disabled, please email directly.">
+            <form action="https://formspree.io/f/mjvdazal"
+            method="POST">
+                <input type="text" name="Name" placeholder="Whats your name?">
+                <input type="email" name="email" placeholder="What's a good email for you?" required="required">
+                <input type="text" name="Project Description" placeholder="Tell us about your project...">
                 <button class="buttonReg" type="submit" value="Submit">Send</button>
             </form>
         </div>
