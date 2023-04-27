@@ -11,7 +11,7 @@ This project was built using HTML5, CSS3, and JavaScript. Built from the ground 
 
 #### TODO / Project Roadmap
 * portfolio.html - button for GitHub repositories for each project
-~~ * portfolio.html - Twitter connection icon added and linked ~~ - Change committed 2023-4-26
+* ~~portfolio.html - Twitter connection icon added and linked~~ - Change committed 2023-4-26
 
 
 #### Changelog
