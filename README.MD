@@ -19,7 +19,7 @@ This project was built using HTML5, CSS3, and JavaScript. Built from the ground 
     * portfolio.html - Project buttons now redirect to project webpage
     * home.html - Centered project span as it was not formatted correctly. Added subtext bold span to each project on home page. Modified text spacing in projects section. 
     
-* [Apr 26, 2023)(#)
+* [Apr 26, 2023](#)
    * portfolio.html - Added additional content to 'skills' section of page.
    * portfolio.html - Added Twitter icon and connectivity to twitter page.
 
