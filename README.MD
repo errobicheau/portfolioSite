@@ -11,13 +11,17 @@ This project was built using HTML5, CSS3, and JavaScript. Built from the ground 
 
 #### TODO / Project Roadmap
 * portfolio.html - button for GitHub repositories for each project
-* portfolio.html - Twitter connection icon added and linked
+~~ * portfolio.html - Twitter connection icon added and linked ~~ - Change committed 2023-4-26
 
 
 #### Changelog
 * [Mar 27, 2023](#)
     * portfolio.html - Project buttons now redirect to project webpage
     * home.html - Centered project span as it was not formatted correctly. Added subtext bold span to each project on home page. Modified text spacing in projects section. 
+    
+* [Apr 26, 2023)(#)
+   * portfolio.html - Added additional content to 'skills' section of page.
+   * portfolio.html - Added Twitter icon and connectivity to twitter page.
 
 
 ## Lessons Learned:
