@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* CSS Reset */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,6 +20,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,7 +62,11 @@ table {
     display: table;
   }
 
-/* GRID */
+/*
+====================
+GRID / COLUMNS
+====================
+*/
 
 *,
 *:before,
@@ -82,25 +84,20 @@ table {
     
 }
 
-.col-1-3,
-.col-2-3 {
-	padding-left: 0.9375em;
-	padding-right: 0.9375em;
-}
+
 .col-1-3,
 .col-2-3 {
 	display: inline-block;
 	vertical-align: top;
+    padding-left: 0.9375em;
+	padding-right: 0.9375em;
 }
-
 .col-1-2 {
     width: 50.00%;
 }
-
 .col-1-3 {
 	width: 33.33%;
 }
-
 .col-1-4 {
     width: 25%; 
 }
@@ -113,14 +110,19 @@ table {
 .col-2-3 {
 	width: 66.66%;
 }
-.col-1-8 {
+.col-4-5 {
     width: 80%;
 }
 .col-full {
     width: 100%;
 }
 
-/* STYLES */
+
+/*
+====================
+SECTION STYLES
+====================
+*/
 .style1 {
     background: rgb(255, 255, 255);
 }
@@ -131,40 +133,42 @@ table {
     background: rgb(28,27,27);
 }
 
-/* TYPOGRAPHY --------------------*/
 
+/*
+====================
+TYPOGRAPHY (STYLES/FORMATTING)
+====================
+*/
 
+/* Styles */
 h1 h2, h4, h5, p, image, li, span, button {
     color: rgb(28,27,27);
 }
-
 h1, h2, h4 {
     font-family: 'IBM Plex Serif', serif;
     font-weight: 300;
-    letter-spacing: 0.0625rem;
-    padding-bottom: 1.125rem;
 }
-
 h3 {
     color: rgb(147, 149, 158);
-    letter-spacing: 0.078125rem;
-    padding-bottom: 1.125rem;
 }
 h3, h4, h5 {
     font-family: 'IBM Plex Serif', serif;
     font-weight: 200;
 }
-
 p, span, a, img, li, button, .buttonReg {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 1.3125rem;
     font-weight: 400;
-    line-height: 40px;
 }
-    /* SIZING */
+
+/* Formatting */
+h1, h2, h4 {
+    letter-spacing: 0.0625rem;
+    padding-bottom: 1.125rem;
+}
 h1 {
 	font-size: 2.875rem;
 	line-height: 2.875rem;
+    
 }
 h2 {
 	font-size: 2.875rem;
@@ -172,6 +176,8 @@ h2 {
 }
 h3 {
 	font-size: 2.25rem;
+    letter-spacing: 0.078125rem;
+    padding-bottom: 1.125rem;
 }
 h4 {
 	font-size: 1.125em;
@@ -185,51 +191,58 @@ strong {
 cite, em {
 	font-style: italic;
 }
-
-    .subtext {
-        color: rgb(147, 149, 158);
-    }
-
+.subtext {        
+    color: rgb(147, 149, 158);
+}
 a {
     text-decoration: none;
     color: black;
 }
-
 .service { 
     font-style: oblique;
-
+}
+p, span, a, img, li, button, .buttonReg {
+font-size: 1.3125rem;
+line-height: 40px;
 }
 
 
-/* HEADER */
-    header{
-        width: 100%;
-        display: block;
-        height: 6.25em;
-        margin: 0 auto;
-    }
+/*
+====================
+HEADER / NAV
+====================
+*/
+header{
+    width: 100%;
+    display: block;
+    height: 6.25em;
+    margin: 0 auto;
+}
 
-    /* NAV */
-        nav {
-            display: block;
-            width: 82%;
-            margin: 2.1875em auto;
-            
-        }
-        nav li {
-            width: auto;
-            display: inline-block;
-            margin: 0 1.25em 0 0;
-        }
-        nav li:last-child {
-            margin-right: 0;
-        }
+/* NAV */
+nav {
+    display: block;
+    width: 82%;
+    margin: 2.1875em auto;
+}
+nav li {
+    width: auto;
+    display: inline-block;
+    margin: 0 1.25em 0 0;
+}
+nav li:last-child {
+    margin-right: 0;
+}
+nav li:last-child {
+    float: right;
+}
 
-        nav li:last-child {
-            float: right;
-        }
 
-/* FOOTER */
+/*
+====================
+FOOTER
+====================
+*/
 footer {
     background-color: rgb(238, 238, 238);
 }
@@ -250,64 +263,58 @@ footer {
 }
 
 
-/* MAIN ------------------------------*/
+/*
+====================
+MAIN
+====================
+*/
 
-    /* Box Styling */
+/* Box Styling */
 .main {
-     /* border: 1px solid red; */
     display: inline-block;
     padding-top: 5%;
 }
 .welcomeContentFloat {
-    /* border: 1px solid red; */
     float: left;
 }
 
-    /*Content Positioning*/
-
-
+/*Content Positioning*/
 .welcomeContent {
   padding-right: 0em;
-
 }
-
 .welcomeContent h1 {
     font-size: 56px;
 }
-
 .welcomeContent h2 {
     font-size: 52px;
 }
-
 .mainImage img {
     display: block;
     width: 80%;
     max-width: 80%;
     margin: 0 auto;
-    /* max-width: 100%; */
     opacity: 75%;
 }
 
-/* WHAT WE DO ------------------------- */
+/*
+====================
+SECTION: WHAT WE DO
+====================
+*/
 
-    /* Box Styling */
+/* Box Styling */
 .whatWeDoHeader {
     display: block;
     margin: 0 auto;
 }
-
 .whatWeDoFloat {
-    /* border: 1px solid red; */
     float: left;
 }
-
 .whatWeDoHeader {
-        padding-bottom: 10em;
-        text-align: center;
+    padding-bottom: 10em;
+    text-align: center;
 }
-
 .whatWeDoContent {
-    /* border: 1px solid red; */
     padding: 1.5625em 0em 1.5625em 1.5625em;
 }
 .whatWeDoContent h2 {
@@ -318,7 +325,6 @@ footer {
     padding-bottom: 1.75em;
 }
 .whatWeDoimage img{
-    /* border: 1px solid red; */
     display: block;
     width: 100%;
     max-width: 100%;
@@ -327,7 +333,13 @@ footer {
     padding-top: 8%;
 }
 
-/* PROJECTS ----------------------- */
+
+/*
+====================
+SECTION: PROJECTS
+====================
+*/
+
 .projects {
      background-color: rgb(252, 252, 252)
 }
@@ -337,14 +349,10 @@ footer {
 }
 .projectsFloat {
     float: left;   
-
 }
-
 .projectsSideText p {
     padding-top: 1em;
 }
-
-
 .projectsFloat img, 
 .projectsFloat button,
 .projectPara p,
@@ -366,8 +374,12 @@ footer {
 }
 
 
+/*
+====================
+SECTION: SERVICES
+====================
+*/
 
-/* SERVICES ---------------- */
 .servicesHeader {
     margin-bottom: 4.6875em;
 }
@@ -378,7 +390,6 @@ footer {
     color: white;
     background-color: rgb(28,27,27); 
 }
-
 .servicesRow {
     margin: 0 auto;
     padding: 3.125em 0em;
@@ -396,8 +407,12 @@ footer {
 }
 
 
+/*
+====================
+SECTION: WHO WE ARE
+====================
+*/
 
-/* WHO WE ARE ----------------------*/
 .whoWeAreHeader {
     padding-bottom: 3.0em;
 }
@@ -408,11 +423,9 @@ footer {
     border-radius: 8px;
     box-shadow: 0px 0px 10px 1px rgb(238, 238, 238);
 }
-
 .teamSectionFloat {
     float: left;
     padding: 2em;
-    /* border: 1px solid red; */
 }
 .teamSectionFloat img {
     display: block;
@@ -427,28 +440,28 @@ footer {
 .teamSectionFloat h3 {
     padding-bottom: 1em;
 }
-
 .teamSectionPara {
     font-style: italic;
 }
 
-/* CONTACT */
+/*
+====================
+CONTACT
+====================
+*/
 .contact {
     padding-top: 4%;
 }
-
 .contactFloat {
     float: left;
     display: block;
     margin: 0 auto;
     padding: 2%;
 }
-
 form * {
     margin-bottom: 2.5%;
     margin-top: 2.5%;
 }
-
 .contactFloat img {
     display: block;
     margin: 0 auto;
@@ -457,33 +470,38 @@ form * {
     border-radius: 0.75%;
 }
 
-/* LANDING */
+/*
+====================
+LANDING
+====================
+*/
 
 .landing {
     display: block;
     margin: 0 auto;
     text-align: center;
 }
-
 .landingContent * {
     display: block;
     margin: 0 auto;
     padding-bottom: 4%;
     text-align: center;
 }
-
 .landing button {
     margin: 4% 2%;
     font-size: 1.4em;
     padding: 2%;
 }
-
 .bigMargin {
     margin-bottom: 20em;
 }
 
 
-/* PORTFOLIO */
+/*
+====================
+PORTFOLIO
+====================
+*/
 .portfolioBio {
     background:RGBa(28,27,27, 0.01);
 }
@@ -491,16 +509,13 @@ form * {
 .portfolioBio h3 {
     padding-bottom: 1em;
 }
-
 .portfolioSkills {
     display: block;
     margin: 0 auto;
 }
-
 .portfolioSkills div{
     text-align: center;
 }
-
 .portfolioSkills .col-1-4{
     display: inline-block;
     border: 0.5px solid white;
@@ -509,22 +524,17 @@ form * {
     padding: 4% 3%;
     text-align: center;
 }
-
 .portfolioSkills span {
     font-size: 2.0em;
     padding-left: 0.5em;
     color: white;
 }
-
 .portfolioSkills i {
     font-size: 4em;
 }
-
 .portfolioSkills .col-1-4:hover {
     background: rgba(147, 149, 158, .15)
 }
-
-
 .portfolioSkills .col-1-4  {
     display: inline-block;
     color: white;
@@ -532,11 +542,9 @@ form * {
     height: 40%;
     max-height: 20%;
 }
-
 .portfolioSkills h2 {
     color: white;
 }
-
 .portfolioProject p,
 .portfolioProject img,
 .portfolioProject button,
@@ -546,7 +554,6 @@ form * {
     text-align: center;
     width: 80%;
 }
-
 .portfolioProject img {
     object-fit: cover;
     width: 80%;
@@ -554,7 +561,6 @@ form * {
     height: 30em;
     display: block;
 }
-
 .portfolioClosing p,
 .portfolioClosing h3{
     margin-bottom: 1em;
@@ -562,31 +568,32 @@ form * {
 .portfolioClosing p {
     padding-bottom: 2.0em;
 }
-
 .portfolioUL {
     display: block;
     margin: 0 auto;
     width: 100%;
     text-align: center;
 }
-
 .portfolioUL li {
     display: inline-block;
     margin: 0 4%;
     padding: 1em 0.5em;
     text-align: center;
 }
-
 .portfolioUL li i {
     display: block;
     font-size: 2.5em;
 }
-
 .portfolioUL li i:hover {
     color: RGBa(28,27,27, 0.75)
 }
 
-/* TEXT STYLES */
+
+/*
+====================
+ELEMENT STYLES/FORMAT
+====================
+*/
 
 .box {
     display: block;
@@ -594,13 +601,11 @@ form * {
     border-radius: 2px;
     padding: 1.875rem 2.8125rem;
 }
-
 .lineBox {
     display: block;
     text-align: center;
     padding-right: 1.875rem;
 }
-
 .line {
     display: block;
     margin: auto 0;
@@ -617,7 +622,6 @@ form * {
     border-radius: 5px;
     border: 0.5px solid rgb(28,27,27);
 }
-
 .buttonReg:hover {
     transition: ease-in-out;
     transition-duration: 0.25s;
@@ -626,7 +630,6 @@ form * {
     cursor: pointer;
 
 }
-
 input {
     border: none;
     border-bottom: 1px solid grey;
@@ -635,12 +638,22 @@ input {
     font-size: 1rem;
 }
 
-/* TRANSITIONS */
+/*
+====================
+TRANSITIONS/ANIMATIONS
+====================
+*/
+
 .js-scroll {
     transition: background-color 500ms;
   }
  
-/* MEDIA QUERIES */
+
+/*
+====================
+MEDIA QUERIES
+====================
+*/
 
 /* NARROW */
 @media (max-width: 1500px){
