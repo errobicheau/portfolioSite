@@ -10,19 +10,24 @@ This project was built using HTML5, CSS3, and JavaScript. Built from the ground 
 ## Optimizations and Changelog
 
 #### TODO / Project Roadmap
-* portfolio.html - button for GitHub repositories for each project
+* portfolio.html - button/button extension for GitHub repositories for each project
 * ~~portfolio.html - Twitter connection icon added and linked~~ - Change committed [Apr 26, 2023](https://github.com/errobicheau/portfolioSite/blob/main/README.MD#changelog)
 * home.html - Recent work; carousel rotating thumbnails and buttons for recent projects.
+* home.html - Add separation element between each projet highlight
 
 
 #### Changelog
 * [Mar 27, 2023](#)
     * portfolio.html - Project buttons now redirect to project webpage
-    * home.html - Centered project span as it was not formatted correctly. Added subtext bold span to each project on home page. Modified text spacing in projects section. 
+    * home.html - Centered project span as it was not formatted correctly. Added subtext bold span to each     project on home page. Modified text spacing in projects section. 
     
 * [Apr 26, 2023](#)
    * portfolio.html - Added additional content to 'skills' section of page.
    * portfolio.html - Added Twitter icon and connectivity to twitter page.
+
+* [May 22, 2023](#)
+   * assets - Reorganization of structure of assets folder interally
+   * Minor edits to main.css to streamline styles globally
 
 
 ## Lessons Learned:
