@@ -14,6 +14,8 @@ This project was built using HTML5, CSS3, and JavaScript. Built from the ground 
 * ~~portfolio.html - Twitter connection icon added and linked~~ - Change committed [Apr 26, 2023](https://github.com/errobicheau/portfolioSite/blob/main/README.MD#changelog)
 * home.html - Recent work; carousel rotating thumbnails and buttons for recent projects.
 * home.html - Add separation element between each projet highlight
+* Add dark/light mode toggling
+* Carousel for projects feature
 
 
 #### Changelog
